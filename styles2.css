@@ -1,0 +1,140 @@
+body {
+  max-width: 1219px;
+  margin: 0 auto; 
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+.header {
+  background-color: #007765;
+  background-size: cover;
+  background-position: center center;
+  position: fixed;
+  top: 0px; 
+  width: 1219px;
+}
+
+.header__fix-container{
+  display: block;
+  height: 84px;
+  width: 1219px;
+  background-color: #53615f;
+}
+
+.header__logo {
+}
+
+.header__logo-img {
+  width: 184px;
+  height: 45px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  float: left;
+}
+
+.header__content {
+  display: block;
+  font-family: Roboto, sans-serif;
+  font-size: 24px;
+  color: #fff;
+  text-align: right;
+  padding-top: 28px; 
+  padding-bottom: 28px; 
+}
+
+.header__content-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+
+.jumbotron {
+  background-color: #007765;
+  background-image: url("Pic2/jumbotron.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.jumbotron__content {
+  /* display: block; */
+  font-family: Roboto, sans-serif;
+  font-size: 72px;
+  color: #fff;
+  text-align: center;
+  padding-top: 160px; 
+  padding-bottom: 160px; 
+}
+
+
+
+.theProblem {
+  background-color: #eee;
+  background-size: cover;
+}
+
+h1 {
+  font-family: Roboto, sans-serif;
+  font-size: 72px;
+  font-weight: 400;
+  color: #007765;
+  text-align: center;
+  padding-top: 48px; 
+  padding-bottom: 0px;
+  margin: 0px;
+}
+
+.theProblem__content {
+  font-family: Roboto, sans-serif;
+  font-size: 32px;
+  color: #000;
+  text-align: left;
+  padding-bottom: 60px; 
+  /* margin: 0px; */
+}
+
+
+
+.hero {
+  background-color: #eee;
+  background-image: url("Pic2/hero.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.hero__content {
+  /* display: block; */
+  font-family: Roboto, sans-serif;
+  font-size: 48px;
+  font-style: italic;
+  color: #fff;
+  text-align: center;
+  padding: 127px 163px; 
+}
+
+
+
+.PPC {
+  background-color: #eee;
+  background-size: cover;
+}
+
+.PPC__logo-img {
+  width: 115px;
+  height: 115px;
+  padding-right: 48px;
+  float: left;
+}
+
+.PPC__content {
+  font-family: Roboto, sans-serif;
+  font-size: 32px;
+  color: #000;
+  text-align: left;
+  padding-bottom: 60px; 
+}
